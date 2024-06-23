@@ -56,7 +56,6 @@ function previousPokemon() {
     idPokemon -= 1;
     atualizaPokemon(idPokemon);
   }
-  
 }
 
 function nextPokemon() {
