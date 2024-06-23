@@ -41,7 +41,6 @@ async function atualizaPokemon(idPokemon) {
   pokemon = await fetchPokemon(url);
   url = pokemon.sprites.front_default;
   changeImage("img_sprite_front_default", url);
-  
 }
 
 function previousPokemon() {
